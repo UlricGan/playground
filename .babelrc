@@ -1,0 +1,12 @@
+{
+	"presets": ["es2015", "es2016", "react", "stage-0"],
+	"plugins": [
+		"syntax-trailing-function-commas",
+		"transform-class-properties",
+		["transform-runtime", {
+			"helpers": false,
+			"polyfill": false,
+			"regenerator": true
+		}]
+	]
+}
